@@ -6,9 +6,10 @@ import java.util.logging.Level
 import java.util.logging.LogManager
 
 /**
- * A placeholder fragment containing a jME GLSurfaceView.
+ * The JME fragment that displays the game in a GLSurfaceView.
  */
 class JmeFragment : AndroidHarnessFragment() {
+
     init {
         eglBitsPerPixel = 24
         eglAlphaBits = 0
