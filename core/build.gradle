@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    // jme
+    api "org.jmonkeyengine:jme3-core:$jme_version"
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
